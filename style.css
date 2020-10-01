@@ -1,0 +1,81 @@
+#contenedor {
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+header {
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+#head_left {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    /* background-color: chartreuse; */
+    padding: 10px;
+}
+
+.botones {
+    margin-left: 20px;
+}
+
+#head_right {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    /* background-color: crimson; */
+}
+
+#main {
+    height: 80vh;
+    width: 100%;
+}
+
+
+/* ------------------------ FOOTER ------------------------ */
+footer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#idioma {
+    width: 20%;
+    color: antiquewhite;
+    /* background-color: darkblue; */
+}
+
+#privacy {
+    width: 20%;
+    color: antiquewhite;
+    /* background-color: brown; */
+}
+
+#footer_home {
+    width: 20%;
+    color: antiquewhite;
+    /* background-color: darkblue; */
+}
+
+#social {
+    width: 20%;
+    color: antiquewhite;
+    /* background-color: coral; */
+}
+
+#copyright {
+    width: 20%;
+    color: antiquewhite;
+    /* background-color: darkgreen; */
+}
